@@ -13,6 +13,10 @@
 ```
 npm install feathers-docker --save
 ```
+## Requirements
+
+Docker v18 Link (https://docs.docker.com/get-started/)
+
 
 ## Documentation
 
