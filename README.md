@@ -16,7 +16,34 @@ npm install feathers-docker --save
 
 ## Documentation
 
-TBD
+This is a wrapper around the DockerEngine API. 
+
+### Features
+
+#### Actions
+- [ ] CRUD Containers
+- [ ] CRUD Services
+
+#### Endpoints Supported
+- [ ] auth
+- [ ] configs
+- [ ] containers
+- [ ] distribution
+- [ ] events
+- [ ] exec
+- [ ] images
+- [ ] index.js
+- [ ] info
+- [ ] networks
+- [ ] node
+- [ ] ping
+- [ ] plugins
+- [ ] secrets
+- [ ] services
+- [ ] swarm
+- [ ] tasks
+- [ ] version
+- [ ] volumes
 
 ## Complete Example
 
@@ -24,13 +51,13 @@ Here's an example of a Feathers server that uses `feathers-docker`.
 
 ```js
 const feathers = require('@feathersjs/feathers');
-const plugin = require('feathers-docker');
+const docker = require('feathers-docker');
 
 // Initialize the application
 const app = feathers();
 
 // Initialize the plugin
-app.configure(plugin());
+app.configure(docker());
 ```
 
 ## License
