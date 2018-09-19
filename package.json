@@ -47,6 +47,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@feathersjs/express": "^1.2.6",
+    "@feathersjs/feathers": "^3.2.2",
     "chai": "^3.5.0",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^5.2.0",
